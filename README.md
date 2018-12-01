@@ -6,6 +6,7 @@ Create the Page Objects of your Web application under **_pageobjects_** package,
 
 ### How to setup(Mac)?
 1) Make sure PHP is installed.
+NOTE: We have specified PHPUnit v7 in composer.json, so you need PHP 7 installed. However if your PHP version is different then you have to change the PHPUnit version in composer.json
 2) install composer using: `$ brew install composer`
 3) Move to Project directory.
 4) Install project dependencies using command: `$ composer update`, After successfully installing this you can observe that **vendor** directory will be created in project root directory.
